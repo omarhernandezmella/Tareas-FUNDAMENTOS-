@@ -88,7 +88,7 @@ def ppf(LA,Kbar=KBAR, Lbar=LBAR,alpha=ALPHA,beta=BETA):
     ax.set_ylim(0, Kbar)
     ax.plot(Qa, Qm,'k-')
     ax.set_xlabel(r'cantidad de plata',fontsize=18)
-    ax.set_ylabel(r'cantidad d eporotos',fontsize=18)
+    ax.set_ylabel(r'cantidad de porotos',fontsize=18)
     plt.show()
 
 fig, ax = plt.subplots(figsize=(7,6))
